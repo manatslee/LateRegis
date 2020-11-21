@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ยื่นคำร้องลงทะเบียนล่าช้า</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Mitr,TH SarabunPSK,Angsana New, serif;
+}
+
+/* Style the header */
+header {
+  background-color: #ff0000d8;
+  padding: 5px;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+}
+
+p.ex1 {
+  font-size: 13px;
+  text-align: right;
+}
+p.ex2 {
+  color: #cc7a00;
+}
+h5.ex1{
+  color: #cc7a00;
+}
+h3.ex1{
+  text-align: center;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  background: #ffcc33;
+  color: #996600;
+  
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ffcc33;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ff0000;
+  padding: 5px;
+  text-align: right;
+  color: white;
+  font-size: 15px;
+  
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <IMG ALIGN=left BORDER=2 HEIGHT=90 WIDTH=415 HSPACE=20 VSPACE=10 SRC="picture/Tulogow.png">
+  <h1>&nbsp</h1>
+  <h1>&nbsp</h1>
+</header>
+
+<section>
+  <nav>
+  <form> 
+    
+  
+    <div class="media-body">
+      <div class="form-group">
+      <h3>Log in</h3>
+      <Font face="FreesiaUPC"Font size=5 size="18" color="black" >
+      <label for="UserName">&#9993 UserName:</label>
+      <input type="UserName" class="form-control" id="UserName" placeholder="Enter UserName" name="UserName" required>
+    </div>
+    <div class="form-group">
+      <label for="pwd">&#128477 Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <Font face="FreesiaUPC"Font size=4 color="white" >
+      <a href="https://late-registeration-u2.herokuapp.com/" >
+      <input type="button" Font size=5 value="Login" class ="btn btn-primary">
+      </a>
+      <!--input type="button" onclick="testja2/views/pages/Date_u2 " Font size=5 value="Login" class ="btn btn-primary"-->
+    </div>
+    </Font>
+  </form>
+  </nav>
+  <article>
+    <h6>&nbsp</h6>
+    <h3 class="ex1">&#128466 การยื่นคำร้องลงทะเบียนล่าช้า &#128395</h3>
+    <h6>&nbsp</h6>
+    <div class="media border p-2">
+    <img src="picture/avatar2.png" alt="Student" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h5 class="ex1">นักศึกษา</h5>
+      <p class="ex2">ใครบ้างที่สามารถยื่นคำร้องลงทะเบียนล่าช้าได้</p>
+      <div class="media p-3">
+        <img src="picture/avatar1.png" alt="Staff" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+        <div class="media-body">
+          <h5 class="ex1">เจ้าหน้าที่ </h5>
+          <p class="ex2">ผู้ที่สามารถยื่นคำร้องลงทะเบียนล่าช้าได้ต้องนักศึกษาของมหาวิทยาลัยธรรมศาสตร์ที่ไม่ได้จดทะเบียนเรียนในรอบแรก</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="media border p-2">
+    <img src="picture/avatar2.png" alt="Student" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h5 class="ex1">นักศึกษา</h5>
+      <p class="ex2">ในการยื่นคำร้องลงทะเบียนล่าช้ามีระยะเวลาที่สามารถยื่นคำร้องได้กี่วัน</p>
+      <div class="media p-3">
+        <img src="picture/avatar1.png" alt="Staff" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+        <div class="media-body">
+          <h5 class="ex1">เจ้าหน้าที่ </h5>
+          <p class="ex2">นักศึกษาสามารถยื่นคำร้องและดำเนินการตามขั้นตอนต่างๆต้องไม่เกิน 30 วัน นับจากวันเปิดภาคเรียน</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <div class="media border p-2">
+    <img src="picture/avatar2.png" alt="Student" class="mr-3 mt-3 rounded-circle" style="width:60px;">
+    <div class="media-body">
+      <h5 class="ex1">นักศึกษา</h5>
+      <p class="ex2">มีค่าใช้จ่ายในการจดทะเบียนล่าช้าหรือไม่</p>
+      <div class="media p-3">
+        <img src="picture/avatar1.png" alt="Staff" class="mr-3 mt-3 rounded-circle" style="width:45px;">
+        <div class="media-body">
+          <h5 class="ex1">เจ้าหน้าที่ </h5>
+          <p class="ex2">นักศึกษาต้องเสียค่าปรับอัตราต่อวัน วันละ 45 บาท โดยเริ่มคิดค่าปรับตั้งแต่วันแรกของช่วงการจดทะเบียนเรียนล่าช้า (ไม่คิดค่าปรับวันหยุด) </p>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  </article>
+</section>
+
+<footer>
+    <Font face="FreesiaUPC"Font size=4 color="white" >
+  <p><B>พบปัญหาการเข้าใช้หน้าเว็ป ติดต่อได้ที่: &#9743 089-999-9999 &#9993 cs264group3@dome.tu.ac.th</B></p>
+        </Font>
+</footer>
+
+</body>
+</html>
